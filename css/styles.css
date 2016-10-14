@@ -2,19 +2,19 @@
 	body{
 	    background: #DDDDDD;
 	    margin: 5% 2%;
-		font-size: 16px;
+		font-size: 12px;
 		font-weight: 700;
 		font-family: 'Lato', sans-serif;
 	}
 	.Leader{
 		color: #495f83;
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 700;
 		font-family: 'Oswald', sans-serif;
 	}
 	.Leader2{
 		color: #495f83;
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 700;
 		font-family: 'Oswald', sans-serif;
 	}
@@ -22,7 +22,28 @@
 		display:block; width:100%; 
 	}
 }
-@media only screen and (min-width: 771px){
+@media only screen and (max-width: 1200px){
+	body{
+	    background: #DDDDDD;
+	    margin: 5% 10%;
+		font-size: 18px;
+		font-weight: 700;
+		font-family: 'Lato', sans-serif;
+	}
+	.Leader{
+		color: #495f83;
+		font-size: 24px;
+		font-weight: 700;
+		font-family: 'Oswald', sans-serif;
+	}
+	.Leader2{
+		color: #444;
+		font-size: 24px;
+		font-weight: 700;
+		font-family: 'Oswald', sans-serif;
+	}
+}
+@media only screen and (min-width: 1201px){
 	body{
 	    background: #DDDDDD;
 	    margin: 5% 15%;
@@ -46,8 +67,28 @@
 p {
 	margin-bottom: 5px;
 }
+p.pad{
+	margin-top: 5px;
+	margin-bottom: 10%;
+	text-align: center;
+}
+.overflow {
+/*    white-space: nowrap;*/
+	display: inline-block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: normal;
+    margin-right: 60px;    
+}
+.container-fluid-blog{
+	width: 70%;
+}
 footer {
 	padding-top: 8%;
+	padding-right: 8%;
+	padding-left: 8%;
 }
 
 div.transbox {
@@ -63,13 +104,6 @@ div.transbox p {
 table.spacing {
     border-collapse: separate;
     border-spacing: 50px;
-}
-dir.test{
-    border-left:solid red 3px;
-    border-right:solid violet 4px;
-    border-top:solid blue 4px;
-    border-bottom:solid green 4px;
-    background:grey;
 }
 #footer { text-align: center; }
 #footer ul { list-style: none; }
