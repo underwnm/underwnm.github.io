@@ -53,14 +53,12 @@ footer {
 div.transbox {
 	margin: 2%;
 	background-color: #ffffff;
-	opacity: 0.6;
+	opacity: .6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
-
 div.transbox p {
-	margin: 10%;
-	font-weight: bold;
-	color: #000000;
+	margin: 2%;
+	padding: 5px;
 }
 table.spacing {
     border-collapse: separate;
@@ -91,13 +89,13 @@ dir.test{
 	color: #495f83;
 	font-weight: 900 !important;
 }
-.font-2 {
-	color: #444;
-	font-weight: 900 !important;
-}
 .font-1:hover { 
 	color: grey; 
 	text-decoration: none !important;
+	font-weight: 900 !important;
+}
+.font-2 {
+	color: #444;
 	font-weight: 900 !important;
 }
 .bg-1{ background:#495f83; }
