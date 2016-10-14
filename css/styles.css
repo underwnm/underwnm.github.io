@@ -18,6 +18,9 @@
 		font-weight: 700;
 		font-family: 'Oswald', sans-serif;
 	}
+	th,td { 
+		display:block; width:100%; 
+	}
 }
 @media only screen and (min-width: 771px){
 	body{
@@ -46,25 +49,29 @@ p {
 footer {
 	padding-top: 8%;
 }
-img{
-	padding-bottom: 10px;
-}
-div.background {
-  background: url(.jpg) repeat;
-  border: 2px solid black;
-}
 
 div.transbox {
-  margin-top: 30px;
-  background-color: #ffffff;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+	margin: 2%;
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 div.transbox p {
-  margin: 0%;
-  font-weight: bold;
-  color: #000000;
+	margin: 10%;
+	font-weight: bold;
+	color: #000000;
+}
+table.spacing {
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+dir.test{
+    border-left:solid red 3px;
+    border-right:solid violet 4px;
+    border-top:solid blue 4px;
+    border-bottom:solid green 4px;
+    background:grey;
 }
 #footer { text-align: center; }
 #footer ul { list-style: none; }
