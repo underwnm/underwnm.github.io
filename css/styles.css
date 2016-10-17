@@ -111,7 +111,8 @@ table.spacing {
 .Editorial{
 	margin-bottom: 0 !important;
 	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
+	color: grey;
 }
 .banner {
 	max-width: 100% !important;
